@@ -49,6 +49,12 @@ public class Main {
                     case 2:
                         productService.show();
                         break;
+                    case 3:
+                        productService.update();
+                        break;
+                    case 4:
+                        productService.delete();
+                        break;
                 }
 
                 if(option == 7) {

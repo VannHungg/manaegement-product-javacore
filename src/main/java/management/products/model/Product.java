@@ -3,7 +3,7 @@ package management.products.model;
 import management.products.Main;
 
 public class Product {
-    private static int count = Main.PRODUCTS.size();
+    public static int count = Main.PRODUCTS.size();
     private Integer id;
     private String name;
     private String note;
